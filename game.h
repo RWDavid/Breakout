@@ -4,6 +4,8 @@
 #define GLEW_STATIC
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include "game_level.h"
+#include <vector>
 
 // Represents the current state of the game
 enum GameState {
@@ -16,9 +18,11 @@ class Game
 {
 public:
 	// Game state
-	GameState State;
-	GLboolean Keys[1024];
-	GLuint Width, Height;
+	GameState State;				// Menu | Active | Win
+	GLboolean Keys[1024];			// Keeps track of the states of the keyboard keys
+	GLuint Width, Height;			// Dimensions required to format the screen
+	std::vector<GameLevel> Levels;	// A collection of levels to be loaded
+	GLuint Level;					// The current level
 
 	// Constructor/Destructor
 	Game(GLuint width, GLuint height);
