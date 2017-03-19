@@ -1,4 +1,5 @@
 #include "sprite_renderer.h"
+
 #include <glm/gtc/matrix_transform.hpp>
 
 SpriteRenderer::SpriteRenderer(Shader &shader)

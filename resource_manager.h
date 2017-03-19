@@ -1,11 +1,10 @@
 #ifndef RESOURCE_MANAGER_H
 #define RESOURCE_MANAGER_H
 
-#include <map>
-#include <string>
-
 #define GLEW_STATIC
 #include <GL/glew.h>
+#include <map>
+#include <string>
 
 #include "shader.h"
 #include "texture.h"

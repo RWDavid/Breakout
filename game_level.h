@@ -1,15 +1,13 @@
 #ifndef GAME_LEVEL_H
 #define GAME_LEVEL_H
 
-#include <vector>
-
 #define GLEW_STATIC
 #include <GL/glew.h>
 #include <glm/glm.hpp>
+#include <vector>
 
 #include "game_object.h"
 #include "sprite_renderer.h"
-#include "resource_manager.h"
 
 /// GameLevel holds all Tiles as part of a Breakout level and 
 /// hosts functionality to Load/render levels from the harddisk.

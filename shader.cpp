@@ -1,5 +1,6 @@
 #include "shader.h"
 
+#include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 
 // Sets the current shader as active (uses the program); also returns the current shader object

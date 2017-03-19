@@ -3,6 +3,7 @@
 #include "sprite_renderer.h"
 #include "game_object.h"
 
+#include <GLFW/glfw3.h>
 #include <glm/gtc/matrix_transform.hpp>
 
 /* Game objects */

@@ -3,9 +3,9 @@
 
 #define GLEW_STATIC
 #include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include "game_level.h"
 #include <vector>
+
+#include "game_level.h"
 
 // Represents the current state of the game
 enum GameState {

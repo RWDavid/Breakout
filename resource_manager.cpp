@@ -1,10 +1,9 @@
 #include "resource_manager.h"
 
+#include <SOIL.h>
 #include <iostream>
 #include <fstream>
 #include <sstream>
-
-#include <SOIL.h>
 
 // Instantiate static variables
 std::map<std::string, Texture2D>    ResourceManager::Textures;
