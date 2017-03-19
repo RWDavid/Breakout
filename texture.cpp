@@ -1,6 +1,6 @@
-#include <iostream>
-
 #include "texture.h"
+
+#include <iostream>
 
 // Constructor (sets default texture modes)
 Texture2D::Texture2D()
